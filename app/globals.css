@@ -9,13 +9,12 @@
   --radius: 0.5rem
 }
 
-
 @layer utilities {
   .max-container {
     @apply mx-auto max-w-[1440px]
   }
   .padding-container {
-    @apply px-12 max-md:px-6 xl:px-16
+    @apply px-12 max-md:px-6 xl:px-16   
   }
   .flex-center {
     @apply flex justify-center items-center
