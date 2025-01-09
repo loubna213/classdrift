@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <>
       <ColoredLine/>
-      <nav className='max-container padding-container flex-between py-5'>
+      <nav className='max-container padding-container flex-between items-center py-5'>
         <Link href="/" aria-label='logo'>
           <Image src="/logo.png" alt='logo' width={128} height={74}/>
         </Link>

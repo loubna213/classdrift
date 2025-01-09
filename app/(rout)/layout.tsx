@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
+import "../globals.css"
 import Navbar from "@/components/layout/Navbar";
+import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
   title: "Classdrift",
@@ -14,9 +15,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`bg-secondary-white-400 font-jost`}>
+      <body className="bg-secondary-white-400 font-jost">
         <Navbar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );

@@ -1,9 +1,13 @@
-import React from "react";
+import Hero from "@/components/sections/home/Hero";
+import Features from "@/components/sections/home/Features";
+import CallAction from "@/components/sections/home/CallAction";
 
 export default function Home() {
   return (
-    <section className="max-container padding-container">
-
-    </section>
+    <main>
+      <Hero />
+      <Features />
+      <CallAction/>
+    </main>
   );
 }

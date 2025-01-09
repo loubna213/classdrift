@@ -47,7 +47,7 @@ export default {
   			},
   		},
 		fontFamily: {
-			jost: ["Jost", "serif"]
+			jost: ["Jost", "sans-serif"]
 		},
   		borderRadius: {
   			lg: 'var(--radius)',

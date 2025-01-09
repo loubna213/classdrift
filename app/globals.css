@@ -5,7 +5,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
-
 :root {
   --radius: 0.5rem
 }
@@ -22,7 +21,7 @@
     @apply flex justify-center items-center
   }
   .flex-between {
-    @apply flex justify-between items-center
+    @apply flex justify-between
   }
   .text-60-medium {
       @apply text-6xl font-medium leading-[74px]
@@ -33,6 +32,9 @@
   .text-30-medium {
       @apply text-3xl font-medium leading-[38px]
   }
+  .text-25-semibold {
+    @apply text-[25px] font-semibold leading-[31px]
+}
   .text-25-medium {
       @apply text-[25px] font-medium leading-[31px]
   }
